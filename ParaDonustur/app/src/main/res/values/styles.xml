@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="editTextTheme" parent="Widget.AppCompat.EditText">
+        <item name="color">#630000</item>
+    </style>
+
 </resources>

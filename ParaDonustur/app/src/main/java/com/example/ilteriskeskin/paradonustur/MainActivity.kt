@@ -4,6 +4,7 @@ import android.os.AsyncTask
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
 import android.widget.Toast
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
@@ -78,7 +79,6 @@ class MainActivity : AppCompatActivity() {
 
             try {
                 val jsonObject = JSONObject(result)
-                //val base = jsonObject.getString("base")
                 val rates = jsonObject.getString("rates")
 
                 val jsonObject1 = JSONObject(rates)
@@ -89,10 +89,12 @@ class MainActivity : AppCompatActivity() {
                 var aFloat: Float = a.toFloat()
                 var bFloat: Float = b.toFloat()
 
-                val convert: Float = aFloat / bFloat
+                var entry1: Float = editText.text.toString().toFloat()
+
+                val convert: Float = (bFloat * entry1) / aFloat
                 val convertString: String = convert.toString()
 
-                textView.text = "Dönüşüm: " + convertString
+                textView.text = "Dönüşüm: " + entry1 + " " + spinner.selectedItem.toString() + " = " + convertString + " " + spinner2.selectedItem.toString()
 
 
 
