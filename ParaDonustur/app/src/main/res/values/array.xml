@@ -2,7 +2,6 @@
 <resources>
     <string-array name="birimler">
         <item>AUD</item>
-        <item>BBD</item>
         <item>BGN</item>
         <item>BRL</item>
         <item>CAD</item>
@@ -21,7 +20,6 @@
         <item>ISK</item>
         <item>JPY</item>
         <item>KRW</item>
-        <item>LVL</item>
         <item>MYR</item>
         <item>MXN</item>
         <item>NOK</item>
@@ -36,6 +34,5 @@
         <item>TRY</item>
         <item>USD</item>
         <item>ZAR</item>
-        <item>XDR</item>
     </string-array>
 </resources>
