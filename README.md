@@ -7,3 +7,5 @@
 * Talep ettiğiniz uygulamaları (mobil-web) geliştirip yayınlayabiliriz.
 
 #### Döviz Çevir Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=nokulsoft.paradonustur)
+
+#### Pardus Kılavuz Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=nokulsoft.pardusklavuz)
