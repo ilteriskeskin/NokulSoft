@@ -112,7 +112,7 @@ RSS, Torrent, vb. araçlar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="E-postalarınızı yönetmek için Mozilla Thunderbird kullanabilirsiniz. Özgü, güvenli ve hızlıdır."
+                android:text="E-postalarınızı yönetmek için Mozilla Thunderbird kullanabilirsiniz. Özgür, güvenli ve hızlıdır."
                 android:textColor="@android:color/background_light"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -144,8 +144,8 @@ RSS, Torrent, vb. araçlar"
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
         android:layout_marginBottom="15dp"
-        android:layout_marginTop="16dp"
         android:text="3-İnternet Araçları"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
@@ -154,5 +154,20 @@ RSS, Torrent, vb. araçlar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7241074395795386/9566100387"
+        ads:layout_constraintTop_toTopOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+        ads:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp">
+    </com.google.android.gms.ads.AdView>
 
 </android.support.constraint.ConstraintLayout>

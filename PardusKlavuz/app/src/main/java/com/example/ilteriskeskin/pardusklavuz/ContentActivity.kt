@@ -4,12 +4,24 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 
 class ContentActivity : AppCompatActivity() {
+
+    lateinit var mAdView : AdView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_content)
+
+        MobileAds.initialize(this, "ca-app-pub-7241074395795386~8115209929")
+
+        mAdView = findViewById(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+        mAdView.loadAd(adRequest)
+
     }
 
     fun geri(view: View) {
@@ -52,10 +64,6 @@ class ContentActivity : AppCompatActivity() {
     }
     fun bolum6(view: View) {
         val i = Intent(this, Bolum6Activity::class.java)
-        startActivity(i)
-    }
-    fun bolum7(view: View) {
-        val i = Intent(this, Bolum7Activity::class.java)
         startActivity(i)
     }
 }

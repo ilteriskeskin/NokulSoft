@@ -53,7 +53,7 @@
         android:layout_marginRight="49dp"
         android:layout_marginStart="49dp"
         android:layout_marginTop="165dp"
-        android:text="Yakın zamanda 'yerli ve milli' kavramları ile ünlenen Pardus'us kullanımına dair temel bilgileri öğrenebilmeniz adına nokulsoft tarafından hazırlanmış bir uygulama. Amacımız GNU/Linux sistemlerin ve Pardus'un herkes için kolayca kullanılabilmesini sağlamak."
+        android:text="Yakın zamanda 'yerli ve milli' kavramları ile ünlenen Pardus'us kullanımına dair temel bilgileri öğrenebilmeniz adına NokulSoft tarafından hazırlanmış bir uygulama. Amacımız GNU/Linux sistemlerin ve Pardus'un herkes için kolayca kullanılabilmesini sağlamak."
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
@@ -61,17 +61,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button3"
         android:layout_width="114dp"
-        android:layout_height="48dp"
+        android:layout_height="107dp"
         android:layout_marginBottom="16dp"
-        android:background="#512121"
+        android:background="@drawable/sonlogo"
         android:onClick="site"
         android:text="Nokul Soft"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="20sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
