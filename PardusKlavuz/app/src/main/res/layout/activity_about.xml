@@ -53,7 +53,7 @@
         android:layout_marginRight="49dp"
         android:layout_marginStart="49dp"
         android:layout_marginTop="165dp"
-        android:text="Yakın zamanda 'yerli ve milli' kavramları ile ünlenen Pardus'us kullanımına dair temel bilgileri öğrenebilmeniz adına NokulSoft tarafından hazırlanmış bir uygulama. Amacımız GNU/Linux sistemlerin ve Pardus'un herkes için kolayca kullanılabilmesini sağlamak."
+        android:text="Yakın zamanda 'yerli ve milli' kavramları ile ünlenen Pardus'un kullanımına dair temel bilgileri öğrenebilmeniz adına NokulSoft tarafından hazırlanmış bir uygulama. Amacımız GNU/Linux sistemlerin ve Pardus'un herkes için kolayca kullanılabilmesini sağlamak."
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
