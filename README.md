@@ -5,7 +5,16 @@
 * Uygulamalar özgür yazılım lisansı ile lisanslanmıştır.
 * Tamamiyle isteğinize göre güncelleme verebiliriz, yapabilirsiniz.
 * Talep ettiğiniz uygulamaları (mobil-web) geliştirip yayınlayabiliriz.
+* Destek olmak için uygulamaları indirebilirsiniz.
+
+---------------
+
+## Uygulamaların İndirme Linkleri:
+
+---------------
 
 #### Döviz Çevir Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=nokulsoft.paradonustur)
 
 #### Pardus Kılavuz Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=nokulsoft.pardusklavuz)
+
+#### Troll Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=ilteriskeskin.troll)
