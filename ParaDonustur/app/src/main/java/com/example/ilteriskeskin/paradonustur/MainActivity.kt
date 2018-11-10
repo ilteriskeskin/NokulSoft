@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
                 val convert: Float = (bFloat * entry1) / aFloat
                 val convertString: String = convert.toString()
 
-                textView.text = "Dönüşüm: " + entry1 + " " + spinner.selectedItem.toString() + " = " + convertString + " " + spinner2.selectedItem.toString()
+                textView.text = "Miktar: " + entry1 + " " + spinner.selectedItem.toString() + " = " + convertString + " " + spinner2.selectedItem.toString()
 
 
 
