@@ -16,3 +16,5 @@
 #### Pardus Kılavuz Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=nokulsoft.pardusklavuz)
 
 #### Troll Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=ilteriskeskin.troll)
+
+#### AGNO Hesapla Uygulamasını İndirmek İçin: [Google Play Store](https://play.google.com/store/apps/details?id=nokulsoft.agnohesapla)
