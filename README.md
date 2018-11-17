@@ -5,7 +5,7 @@
 * Uygulamalar özgür yazılım lisansı ile lisanslanmıştır.
 * Tamamiyle isteğinize göre güncelleme verebiliriz, yapabilirsiniz.
 * Talep ettiğiniz uygulamaları (mobil-web) geliştirip yayınlayabiliriz.
-* Destek olmak için uygulamaları indirebilirsiniz.
+* Destek olmak için [bağış](https://ilteriskesk.github.io/bagis) yapabilir veya uygulamaları indirebilirsiniz.
 
 ---------------
 
